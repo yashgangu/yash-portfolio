@@ -1,0 +1,341 @@
+/* ===============================
+   Skills Section
+=================================*/
+
+.skills{
+    position: relative;
+    padding:120px 8%;
+    background:linear-gradient(
+        180deg,
+        #07111f,
+        #0f172a,
+        #111827
+    );
+    overflow:hidden;
+}
+
+/* Background Glow */
+
+.skills::before{
+    content:"";
+    position:absolute;
+    width:420px;
+    height:420px;
+    border-radius:50%;
+    background:#2563eb;
+    filter:blur(170px);
+    opacity:.18;
+    top:-120px;
+    left:-120px;
+}
+
+.skills::after{
+    content:"";
+    position:absolute;
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    background:#7c3aed;
+    filter:blur(170px);
+    opacity:.15;
+    right:-120px;
+    bottom:-100px;
+}
+
+/* ===============================
+Heading
+=================================*/
+
+.skills-heading{
+
+    max-width:800px;
+
+    margin:auto;
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.skills-heading span{
+
+    color:#38bdf8;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+    font-weight:700;
+
+    font-size:14px;
+
+}
+
+.skills-heading h2{
+
+    margin-top:18px;
+
+    color:#fff;
+
+    font-size:52px;
+
+}
+
+.skills-heading p{
+
+    color:#94a3b8;
+
+    margin-top:20px;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+/* ===============================
+Grid
+=================================*/
+
+.skills-grid{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:1450px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+    gap:35px;
+
+}
+
+/* ===============================
+Card
+=================================*/
+
+.skill-card{
+
+    background:rgba(255,255,255,.05);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:26px;
+
+    padding:32px;
+
+    transition:.45s;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.skill-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    background:#2563eb;
+
+    filter:blur(90px);
+
+    opacity:0;
+
+    right:-50px;
+
+    top:-50px;
+
+    transition:.5s;
+
+}
+
+.skill-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 25px 60px rgba(37,99,235,.25);
+
+}
+
+.skill-card:hover::before{
+
+    opacity:.30;
+
+}
+
+/* ===============================
+Title
+=================================*/
+
+.skill-title{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:28px;
+
+}
+
+.skill-title svg{
+
+    font-size:32px;
+
+    color:#3b82f6;
+
+}
+
+.skill-title h3{
+
+    color:white;
+
+    font-size:24px;
+
+}
+
+/* ===============================
+Skills
+=================================*/
+
+.skill-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:16px;
+
+}
+
+.skill-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 18px;
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:50px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+/* .skill-item svg{
+
+    font-size:22px;
+
+    color:#60a5fa;
+
+    transition:.35s;
+
+} */
+ .skill-item i{
+
+    font-size:28px;
+
+    transition:.35s;
+
+}
+
+.skill-item span{
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+.skill-item:hover{
+
+    background:#2563eb;
+
+    transform:translateY(-5px) scale(1.05);
+
+    box-shadow:0 15px 35px rgba(37,99,235,.35);
+
+}
+
+/* .skill-item:hover svg{
+
+    color:white;
+
+} */
+ .skill-item:hover i{
+
+    transform:scale(1.25) rotate(8deg);
+
+}
+
+/* ===============================
+Responsive
+=================================*/
+
+@media(max-width:992px){
+
+.skills{
+
+padding:100px 6%;
+
+}
+
+.skills-heading h2{
+
+font-size:42px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.skills-heading h2{
+
+font-size:34px;
+
+}
+
+.skill-card{
+
+padding:25px;
+
+}
+
+}
