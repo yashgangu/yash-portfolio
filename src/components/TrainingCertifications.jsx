@@ -25,7 +25,7 @@ const certificates = [
     year: "2025",
     description:
       "Awarded the Certificate of Excellence for successfully completing Introduction to Java with strong performance in Java programming, object-oriented programming, problem-solving, and core programming concepts.",
-    link: "YOUR_JAVA_CERTIFICATE_LINK",
+    link: "https://drive.google.com/file/d/1TliDhQfaxhm85I_gmCM6YafxIBpOZSRZ/view?usp=sharing",
   },
 
   {
@@ -36,7 +36,7 @@ const certificates = [
     year: "2025",
     description:
       "Completed Java Web Development using Spring Boot, Spring MVC, Spring Data JPA, Hibernate, REST APIs, Spring Security, JWT Authentication, and MySQL while building real-world backend applications.",
-    link: "YOUR_SPRINGBOOT_CERTIFICATE_LINK",
+    link: "https://drive.google.com/file/d/1znWm0lWT5Vk5QrjWi7opXWxpylC8nxfJ/view?usp=sharing",
   },
 
   {
@@ -47,7 +47,7 @@ const certificates = [
     year: "2026",
     description:
       "Completed Database Management System coursework covering SQL, normalization, ER modeling, indexing, transactions, joins, stored procedures, and database design principles.",
-    link: "YOUR_DBMS_CERTIFICATE_LINK",
+    link: "https://drive.google.com/file/d/18-IMSIk034hLheU2RADvAuG4Vg8CpR7g/view?usp=sharing",
   },
 
   {
@@ -58,7 +58,7 @@ const certificates = [
     year: "2024",
     description:
       "Completed a professional development program covering communication skills, teamwork, leadership, critical thinking, workplace ethics, and personality development.",
-    link: "YOUR_AMITY_CERTIFICATE_LINK",
+    link: "https://drive.google.com/file/d/1s9l-OqtilULzTjz4Au_klv5slDALJKDV/view?usp=sharing",
   },
 ];
 

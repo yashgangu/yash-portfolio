@@ -41,7 +41,7 @@ function Footer() {
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
-          <a href="#experience">Training</a>
+          <a href="#certifications">Training & Certifications</a>
           <a href="#education">Education</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
@@ -55,7 +55,7 @@ function Footer() {
           <div className="footer-icons">
 
             <a
-              href="YOUR_GITHUB_LINK"
+              href="https://github.com/yashgangu"
               target="_blank"
               rel="noreferrer"
             >
@@ -63,7 +63,7 @@ function Footer() {
             </a>
 
             <a
-              href="YOUR_LINKEDIN_LINK"
+              href="https://www.linkedin.com/in/yash-gangurde2003/"
               target="_blank"
               rel="noreferrer"
             >
@@ -78,7 +78,7 @@ function Footer() {
 
           <a
             className="resume-btn"
-            href="/resume.pdf"
+            href="./Resume/Yash_resume_java_developer_2026.pdf"
             target="_blank"
             rel="noreferrer"
           >

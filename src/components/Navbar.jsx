@@ -23,7 +23,7 @@ function Navbar() {
                 </li>
 
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#certifications">Training & Certifications</a>
                 </li>
 
                 <li>

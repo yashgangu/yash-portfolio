@@ -72,7 +72,7 @@ const projects = [
       "Cloud Deployment",
       "Secure Login",
     ],
-    github: "#",
+    github: "https://github.com/yashgangu/Support-Desk",
     live: "#",
   },
 
@@ -93,7 +93,7 @@ const projects = [
       "Validation",
       "JPA",
     ],
-    github: "#",
+    github: "https://github.com/yashgangu/Expense-Manager-Application",
     live: "",
   },
 ];

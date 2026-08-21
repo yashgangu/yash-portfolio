@@ -7,6 +7,7 @@ import {
   FaBrain,
   FaDatabase,
   FaTools,
+  
 } from "react-icons/fa";
 
 const skillCategories = [
@@ -54,7 +55,7 @@ const skillCategories = [
       { name: "TensorFlow", icon: "devicon-tensorflow-original colored" },
       { name: "OpenCV", icon: "devicon-opencv-plain colored" },
       { name: "Gemini API", icon: "devicon-google-plain colored" },
-      { name: "Python", icon: "devicon-python-plain colored" },
+      { name: "LLMs", icon: "devicon-python-plain colored" },
     ],
   },
 
@@ -62,7 +63,10 @@ const skillCategories = [
     title: "Database",
     icon: <FaDatabase />,
     skills: [
+       {name: "SQL", icon: "devicon-azuresqldatabase-plain colored"},
       { name: "MySQL", icon: "devicon-mysql-original colored" },
+      { name: "PostgreSQL", icon: "devicon-postgresql-plain colored" },
+     
     ],
   },
 
@@ -73,12 +77,11 @@ const skillCategories = [
       { name: "Git", icon: "devicon-git-plain colored" },
       { name: "GitHub", icon: "devicon-github-original" },
       { name: "Docker", icon: "devicon-docker-plain colored" },
-      { name: "Maven", icon: "devicon-maven-plain colored" },
-      { name: "Railway", icon: "devicon-railway-original colored" },
       { name: "Postman", icon: "devicon-postman-plain colored" },
       { name: "VS Code", icon: "devicon-vscode-plain colored" },
       { name: "Eclipse", icon: "devicon-eclipse-plain colored" },
-    { name: "IntelliJ IDEA", icon: "devicon-intellij-plain colored" },
+      {name: "IntelliJ IDEA", icon: "devicon-intellij-plain colored" },
+      { name: "AWS", icon: "devicon-amazonwebservices-plain-wordmark colored" },
     ],
   },
 ];

@@ -85,11 +85,11 @@ function Hero() {
 
           <div className="hero-buttons">
 
-            <a href="/resume.pdf" download>
+            <a href="https://drive.google.com/file/d/1fgY-BuwWxu5QFg_Lkj3nORxUE-5ewhmf/view?usp=drive_link" download>
 
               <FaDownload />
 
-              Download Resume
+              View Resume
 
             </a>
 
@@ -104,7 +104,7 @@ function Hero() {
           <div className="hero-social">
 
             <a
-              href="YOUR_GITHUB_LINK"
+              href="https://github.com/yashgangu"
               target="_blank"
               rel="noreferrer"
             >
@@ -112,7 +112,7 @@ function Hero() {
             </a>
 
             <a
-              href="YOUR_LINKEDIN_LINK"
+              href="https://www.linkedin.com/in/yash-gangurde2003/"
               target="_blank"
               rel="noreferrer"
             >

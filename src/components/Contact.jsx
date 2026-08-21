@@ -172,7 +172,7 @@ function Contact() {
             <div className="social-links">
 
               <motion.a
-                href="YOUR_LINKEDIN_URL"
+                href="https://www.linkedin.com/in/yash-gangurde2003/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{
@@ -186,7 +186,7 @@ function Contact() {
 
 
               <motion.a
-                href="YOUR_GITHUB_URL"
+                href="https://github.com/yashgangu"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{
